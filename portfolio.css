@@ -19,8 +19,14 @@ header{
     width: 50%;
 }
 a{
-    text-decoration:none;
+    text-decoration: none;
+    color: rgb(175, 68, 68);
 }
+a:hover{cursor: pointer;
+    color: rgb(27, 26, 26);}
+.perfil{
+    height:150px;
+    border-radius: 50px; }
 #h-right ul{   display: flex;
     list-style: none;
     text-align: center;
@@ -83,19 +89,25 @@ display: flex;
     font-size: 100px;
 }
 
-#safe-right button{
+#safe-right a{
     display: flex;
-    width: 13rem;
-    height: 1.5rem;
-    justify-content: center;
-    margin-left: 88px;
+    background: #88afc0a9;
+    font-family: avenir light;
+    height: 2.2rem;
+    width: 9.9rem;
+    border-radius: 32px;
+    margin-left: 100px;
     align-items: center;
+    justify-content: center;
+}
+#safe-right a:hover{background: rgb(88, 180, 241);
+cursor: pointer;
 }
 #safe-right p{
     font-size: 25px;
     font-family: avenir light;
 }
-button{display: flex;}
+
 .text{
     font-family: avenir light;
     font-size: 17px;
